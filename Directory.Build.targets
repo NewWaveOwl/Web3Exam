@@ -1,0 +1,9 @@
+<Project>
+  <!-- Use the locally installed 8.0.26 targeting packs for reproducible offline builds. -->
+  <ItemGroup>
+    <KnownFrameworkReference Update="Microsoft.NETCore.App;Microsoft.WindowsDesktop.App;Microsoft.WindowsDesktop.App.WPF;Microsoft.WindowsDesktop.App.WindowsForms;Microsoft.AspNetCore.App" TargetingPackVersion="8.0.26" DefaultRuntimeFrameworkVersion="8.0.26" LatestRuntimeFrameworkVersion="8.0.26" />
+    <KnownAppHostPack Update="Microsoft.NETCore.App" AppHostPackVersion="8.0.26" />
+    <KnownILLinkPack Update="Microsoft.NET.ILLink.Tasks" ILLinkPackVersion="8.0.19" />
+  </ItemGroup>
+  <PropertyGroup><NuGetAudit>false</NuGetAudit></PropertyGroup>
+</Project>

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><RuntimeFrameworkVersion>8.0.26</RuntimeFrameworkVersion></PropertyGroup>
+  <ItemGroup><Compile Include="..\Scanner.cs" Link="Scanner.cs"/><Compile Include="..\Notes.cs" Link="Notes.cs"/><Compile Include="..\Templates.cs" Link="Templates.cs"/></ItemGroup>
+</Project>
