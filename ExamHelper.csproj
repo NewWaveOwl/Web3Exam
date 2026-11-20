@@ -11,8 +11,9 @@
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\EXAM_GUIDE.md" Link="Notes\EXAM_GUIDE.md" />
-    <EmbeddedResource Include="..\LIBRARY_API_REFERENCE.md" Link="Notes\LIBRARY_API_REFERENCE.md" />
+    <EmbeddedResource Include="Notes\EXAM_GUIDE.md" Link="Notes\EXAM_GUIDE.md" />
+    <EmbeddedResource Include="Notes\LIBRARY_API_REFERENCE.md" Link="Notes\LIBRARY_API_REFERENCE.md" />
     <Compile Remove="Tests\**" />
   </ItemGroup>
 </Project>
+
